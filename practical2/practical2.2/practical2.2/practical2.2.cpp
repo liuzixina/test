@@ -13,11 +13,11 @@ int main() {
 
 	/* prompt for and read first number */
 	printf("Please enter first number : ");
-	num1 = getNumber(num);
+	getNumber(&num1);
 
 	/* prompt for and read second number */
 	printf("Please enter second number: ");
-	num2 = getNumber(num);
+	getNumber(&num2);
 
 	/* add two numbers together and display to screen */
 	sum = calculateSum(num1, num2);
@@ -28,7 +28,7 @@ int main() {
 /* function to read number from standard input (keyboard) */
 void getNumber(int *num) {
 
-	scanf("%d", &num);
+	scanf("%d", *num);
 }
 /* function to calculate the sum of two numbers */
 int calculateSum(int number1, int number2) {
