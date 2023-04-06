@@ -28,7 +28,7 @@ int main() {
 /* function to read number from standard input (keyboard) */
 void getNumber(int *num) {
 
-	scanf("%d", *num);
+	scanf("%d", num);
 }
 /* function to calculate the sum of two numbers */
 int calculateSum(int number1, int number2) {
