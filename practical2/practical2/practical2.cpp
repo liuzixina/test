@@ -19,9 +19,9 @@ int main() {
 	/* C4. display the contents of number to the screen */
 
 	/* C5. call function2 */
-
 	/* C6. display the contents of number to the screen */
 	return 0;
+
 }
 void function1(int number)
 {
@@ -38,3 +38,4 @@ void function2(int *numberPtr)
 
 	/* C13. display the contents of number to the screen */
 }
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
