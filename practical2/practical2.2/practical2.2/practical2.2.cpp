@@ -21,7 +21,7 @@ int main() {
 	getNumber(&num2);
 
 	/* add two numbers together and display to screen */
-	sum = calculateSum(num1, num2);
+	calculateSum(num1, num2,&sum);
 	printf("\nSum of %d and %d is: %d\n\n", num1, num2, sum);
 
 	return 0;
@@ -32,8 +32,8 @@ void getNumber(int *num) {
 	scanf("%d", num);
 }
 /* function to calculate the sum of two numbers */
-int calculateSum(int number1, int number2) {
-	return number1 + number2;
+void calculateSum(int number1, int number2,int *sum) {
+	*sum = number1 + number2;
 }
 /* function to display details to the screen */
 void displayDetails(void) {
