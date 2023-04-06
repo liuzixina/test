@@ -6,7 +6,7 @@ using namespace std;
 
 /* The following are function declarations. They _declare_ that the functions exist but they do not _define_ what the functions actually do (the definitions appear after the main function). By declaring these functions here, they may be called in the main before they are defined.
 
-Note: function1 expects an int type, whereas function2 expects a pointer to an int */
+Note: function1 expects an int type, whereas function2 expects a pointer to an int  */
 void function1(int);
 void function2(int *);
 
