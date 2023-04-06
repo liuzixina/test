@@ -3,7 +3,7 @@
 /* function to read number from standard input (keyboard) */ 
 void getNumber(int *);
 /* function to calculate the sum of two numbers */
-int calculateSum(int, int);
+void calculateSum(int,int,int *);
 /* function to display details to the screen */
 void displayDetails(void);
 int main() {
