@@ -1,6 +1,7 @@
 ﻿#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
-/* function to read number from standard input (keyboard) */ void getNumber(int *);
+/* function to read number from standard input (keyboard) */ 
+void getNumber(int *);
 /* function to calculate the sum of two numbers */
 int calculateSum(int, int);
 /* function to display details to the screen */
