@@ -37,10 +37,10 @@ int calculateSum(int number1, int number2) {
 }
 /* function to display details to the screen */
 void displayDetails(void) {
-	printf("Author : Your Name\n");
-	printf("Stud ID : Your Student Id\n");
-	printf("Email ID : Your Email Id\n");
-	printf("This is my own work as defined by the\n"); printf("University's Academic Misconduct Policy.\n\n");
+	printf("Author : Zixin Liu\n");
+	printf("Stud ID : 2118040111\n");
+	printf("Email ID : 2137744656@qq.com\n");
+	printf("This is my own work as defined by the \n"); printf("University's Academic Misconduct Policy.\n\n");
 }/* end function displayDetails */
 
 
