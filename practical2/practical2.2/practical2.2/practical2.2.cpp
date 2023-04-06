@@ -17,7 +17,7 @@ int main() {
 
 	/* prompt for and read second number */
 	printf("Please enter second number: ");
-	num2 = getNumber(int *);
+	num2 = getNumber(num);
 
 	/* add two numbers together and display to screen */
 	sum = calculateSum(num1, num2);
@@ -27,7 +27,6 @@ int main() {
 }
 /* function to read number from standard input (keyboard) */
 void getNumber(int *num) {
-	int num;
 	scanf("%d", &num);
 }
 /* function to calculate the sum of two numbers */
