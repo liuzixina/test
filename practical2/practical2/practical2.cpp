@@ -36,6 +36,6 @@ void function2(int *numberPtr)
 	/* C11. display the value that the pointer numberPtr points to */
 	/* C12. increment the value stored in number */
 
-	/* C13. display the contents of number to the screen */
-}
+	/* C13. display the contents of number to the screen */u
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+sssssssssssssssssssssss
